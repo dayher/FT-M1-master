@@ -42,6 +42,7 @@ console.log(instructor);
       console.log(instructor);
    }
 })(); // esta funcion se declara sin nombre y no se guarda en una variable, pero usando los parentesis es invocada
+               //Immediately invoked functions expressions (IIFE)s
 console.log(instructor);*/
 
 /*var instructor = "Tony";
