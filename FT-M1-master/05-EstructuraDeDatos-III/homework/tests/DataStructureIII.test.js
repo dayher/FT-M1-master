@@ -32,6 +32,7 @@ describe('binarySearchTree', function() {
     tree.insert(12);
     tree.insert(22);
 expect(tree.size()).toBe(3);
+console.log(tree);
     expect(tree.left.value).toBe(12);
     expect(tree.right.value).toBe(22);
   });
